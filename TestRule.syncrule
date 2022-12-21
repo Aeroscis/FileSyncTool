@@ -1,0 +1,21 @@
+{
+    "patternList": [
+        {
+            "patternName": "TestPattern1",
+            "taskList": [
+                {
+                    "rawScript": "from:{\"./testFile/src\"}\nto:{\"./testFile/dst\"}\nfilter:{\".h\",\".cpp\"}",
+                    "taskName": "P1T1"
+                },
+                {
+                    "rawScript": "from:{\"./testFile/src2\"}\nto:{\"./testFile/dst2\"}\nfilter:{\".h\",\".cpp\"}",
+                    "taskName": "P1T2"
+                },
+                {
+                    "rawScript": "",
+                    "taskName": ""
+                }
+            ]
+        }
+    ]
+}
